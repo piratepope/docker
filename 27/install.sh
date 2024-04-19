@@ -287,7 +287,7 @@ install_package() {
        rm Release.key && sudo apt-get update
        apt-get install zeek -y
     elif [[ $1 == "node" ]]; then
-       curl -sL https://deb.nodesource.com/setup_14.x | bash -
+       curl -sL https://deb.nodesource.com/setup_18.x | bash -
        apt-get install -y nodejs
     elif [[ $1 == "dig" ]]; then
        apt-get install -y dnsutils
