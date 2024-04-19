@@ -1,0 +1,1 @@
+{"iocs": [{"id": 1, "type": "domain", "tag": "tracker", "tlp": "white", "value": "www.google.com"}, {"id": 2, "type": "domain", "tag": "tracker", "tlp": "white", "value": "www.microsoft.com"}]}
