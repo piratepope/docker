@@ -340,7 +340,7 @@ check_dependencies() {
    done
    install_package node
    echo -e "\e[39m[+] Install Python packages...\e[39m"
-   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
+   python3 -m pip3 install -r "$SCRIPT_PATH/assets/requirements.txt"
 }
 
 compile_vuejs() {
